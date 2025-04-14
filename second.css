@@ -1,0 +1,69 @@
+body{
+    background-color: brown;
+    margin: 0;
+}
+.heading{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgb(7, 3, 52);
+    display: flex;
+    justify-content: center;
+}
+.lol{
+    display: flex;
+    height: 300px;
+    width: 800px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 350px;
+}
+.photos{
+    height: 200px;
+    width: 200px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: white;
+}
+.photos:hover{
+    border: 5px solid rgb(7, 3, 52);
+}
+#rock{
+    background-image: url("rock.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#scissors{
+    background-image: url("scissors.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: larger;
+}
+.message{
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: rgb(7, 3, 52);
+    border-radius: 30%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 680px;
+}
+p{
+    font-weight: bolder;
+}
